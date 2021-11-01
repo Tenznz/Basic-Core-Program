@@ -19,10 +19,12 @@ public class PowerOf2 {
 		}
 		sc.close();
 	
-		for (int i = 0; i < pow; i++) {
-			sum = sum * 2;
+		for (int i = 0; i <= pow; i++) {
+			System.out.println("2ˆ" + (i) + " = " + sum);
+			sum = sum*2;
+			
 		}
-		System.out.println("2ˆ" + pow + " = " + sum);
+		
 		
 		
 	}
