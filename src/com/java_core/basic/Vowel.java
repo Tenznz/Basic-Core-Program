@@ -16,7 +16,8 @@ public class Vowel {
 				|| ch == 'O' || ch == 'U') {
 
 			System.out.println(ch + " is vowel letter");
-		} else
+			
+		} else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
 			
 			System.out.println(ch + " is consonant");
 
